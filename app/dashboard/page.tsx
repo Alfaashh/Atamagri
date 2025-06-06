@@ -465,7 +465,7 @@ export default function Dashboard() {
                           key={article.id}
                           className="flex space-x-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer"
                         >
-                          <img
+                          <Image
                             src={article.image || "/placeholder.svg"}
                             alt={article.title}
                             className="w-20 h-20 object-cover rounded-lg flex-shrink-0"
