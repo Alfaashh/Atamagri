@@ -193,7 +193,7 @@ export default function AtamagriLanding() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Solving Agriculture's Climate Challenges
+              Solving Agriculture&apos;s Climate Challenges
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Climate unpredictability threatens food security. Atamagri provides the intelligence farmers need to adapt
@@ -470,8 +470,8 @@ export default function AtamagriLanding() {
                   ))}
                 </div>
                 <p className="text-gray-700 italic">
-                  "Atamagri helped us increase our rice yield by 45% through better irrigation timing and weather
-                  predictions."
+                  &quot;Atamagri helped us increase our rice yield by 45% through better irrigation timing and weather
+                  predictions.&quot;
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
@@ -493,8 +493,8 @@ export default function AtamagriLanding() {
                   ))}
                 </div>
                 <p className="text-gray-700 italic">
-                  "The weather alerts saved our fishing fleet from dangerous storms. Safety and productivity improved
-                  significantly."
+                  &quot;The weather alerts saved our fishing fleet from dangerous storms. Safety and productivity improved
+                  significantly.&quot;
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
@@ -516,8 +516,8 @@ export default function AtamagriLanding() {
                   ))}
                 </div>
                 <p className="text-gray-700 italic">
-                  "The comprehensive data from Atamagri has been invaluable for our climate research and agricultural
-                  studies."
+                  &quot;The comprehensive data from Atamagri has been invaluable for our climate research and agricultural
+                  studies.&quot;
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
