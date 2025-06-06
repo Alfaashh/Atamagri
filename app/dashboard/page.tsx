@@ -48,6 +48,7 @@ import {
   Newspaper,
   Eye,
   EyeOff,
+  LucideIcon
 } from "lucide-react"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 import Link from "next/link"
@@ -161,7 +162,7 @@ export default function Dashboard() {
     title: string
     value: number
     unit: string
-    icon: any
+    icon: LucideIcon
     color: string
     bgColor: string
   }) => (
