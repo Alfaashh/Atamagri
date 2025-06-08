@@ -132,13 +132,13 @@ export default function Dashboard() {
 
   // Sensor data
   const sensorData = {
-    temperature: { value: 35.1, unit: "°C", color: "text-blue-600", bgColor: "bg-blue-50", icon: Thermometer },
-    humidity: { value: 57.7, unit: "RH", color: "text-green-600", bgColor: "bg-green-50", icon: Droplets },
-    light: { value: 44.17, unit: "Lux", color: "text-orange-600", bgColor: "bg-orange-50", icon: Sun },
-    solarCurrent: { value: -0.2, unit: "mA", color: "text-green-600", bgColor: "bg-green-50", icon: Zap },
-    solarVoltage: { value: 1.09, unit: "mV", color: "text-orange-600", bgColor: "bg-orange-50", icon: Gauge },
-    solarWatt: { value: 0, unit: "mW", color: "text-orange-600", bgColor: "bg-orange-50", icon: Zap },
-    wind: { value: 0, unit: "Knot", color: "text-green-600", bgColor: "bg-green-50", icon: Wind },
+    temperature: { value: 32.1, unit: "°C", color: "text-blue-600", bgColor: "bg-blue-50", icon: Thermometer },
+    humidity: { value: 64.7, unit: "RH", color: "text-green-600", bgColor: "bg-green-50", icon: Droplets },
+    light: { value: 12780, unit: "Lux", color: "text-orange-600", bgColor: "bg-orange-50", icon: Sun },
+    solarCurrent: { value: 35.6, unit: "mA", color: "text-green-600", bgColor: "bg-green-50", icon: Zap },
+    solarVoltage: { value: 2.09, unit: "mV", color: "text-orange-600", bgColor: "bg-orange-50", icon: Gauge },
+    solarWatt: { value: 0.9, unit: "mW", color: "text-orange-600", bgColor: "bg-orange-50", icon: Zap },
+    wind: { value: 1.4, unit: "Knot", color: "text-green-600", bgColor: "bg-green-50", icon: Wind },
     rain: { value: 0, unit: "mm", color: "text-blue-600", bgColor: "bg-blue-50", icon: CloudRain },
   }
 
@@ -224,7 +224,7 @@ export default function Dashboard() {
                       isActive={selectedStation === "wisnu"}
                     >
                       <MapPin className="w-4 h-4" />
-                      wisnu
+                      Stasiun Test 1
                     </SidebarMenuButton>
                   </SidebarMenuItem>
                   <SidebarMenuItem>
@@ -313,7 +313,7 @@ export default function Dashboard() {
                 {/* Sensor Data Cards */}
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <SensorCard
-                    title="Temperature"
+                    title="Temperatur"
                     value={sensorData.temperature.value}
                     unit={sensorData.temperature.unit}
                     icon={sensorData.temperature.icon}
@@ -345,7 +345,7 @@ export default function Dashboard() {
                     bgColor={sensorData.solarCurrent.bgColor}
                   />
                   <SensorCard
-                    title="Tegangan Solar"
+                    title="Tegangan Solar Cell"
                     value={sensorData.solarVoltage.value}
                     unit={sensorData.solarVoltage.unit}
                     icon={sensorData.solarVoltage.icon}
@@ -361,7 +361,7 @@ export default function Dashboard() {
                     bgColor={sensorData.solarWatt.bgColor}
                   />
                   <SensorCard
-                    title="Wind"
+                    title="Angin"
                     value={sensorData.wind.value}
                     unit={sensorData.wind.unit}
                     icon={sensorData.wind.icon}
@@ -369,7 +369,7 @@ export default function Dashboard() {
                     bgColor={sensorData.wind.bgColor}
                   />
                   <SensorCard
-                    title="Rain Gauge"
+                    title="Curah Hujan"
                     value={sensorData.rain.value}
                     unit={sensorData.rain.unit}
                     icon={sensorData.rain.icon}
