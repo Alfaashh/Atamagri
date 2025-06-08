@@ -91,7 +91,7 @@ const newsArticles = [
     title: "Optimizing Rice Irrigation in Dry Season",
     category: "Tanaman",
     excerpt: "Learn effective water management techniques for rice cultivation during drought periods.",
-    image: "/placeholder.svg?height=100&width=150",
+    image: "/drought.png",
     readTime: "5 min read",
   },
   {
@@ -99,7 +99,7 @@ const newsArticles = [
     title: "Weather Patterns and Crop Planning",
     category: "Cuaca",
     excerpt: "Understanding seasonal weather changes for better agricultural planning and decision making.",
-    image: "/placeholder.svg?height=100&width=150",
+    image: "/weather.png",
     readTime: "7 min read",
   },
   {
@@ -107,7 +107,7 @@ const newsArticles = [
     title: "Soil Health Management Techniques",
     category: "Tanah",
     excerpt: "Essential practices for maintaining soil fertility and improving crop yields sustainably.",
-    image: "/placeholder.svg?height=100&width=150",
+    image: "/soil.png",
     readTime: "6 min read",
   },
   {
@@ -115,7 +115,7 @@ const newsArticles = [
     title: "Integrated Pest Management Strategies",
     category: "Hama",
     excerpt: "Effective approaches to control pests while minimizing environmental impact on farms.",
-    image: "/placeholder.svg?height=100&width=150",
+    image: "/pest.png",
     readTime: "8 min read",
   },
 ]
