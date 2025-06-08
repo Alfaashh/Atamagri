@@ -52,6 +52,7 @@ import {
 } from "lucide-react"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 
 // Mock data for charts
@@ -469,6 +470,8 @@ export default function Dashboard() {
                           <Image
                             src={article.image || "/placeholder.svg"}
                             alt={article.title}
+                            width={80}
+                            height={80}
                             className="w-20 h-20 object-cover rounded-lg flex-shrink-0"
                           />
                           <div className="flex-1 min-w-0">
